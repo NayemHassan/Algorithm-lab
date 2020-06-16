@@ -1,5 +1,4 @@
 #include <stdio.h>
-/* Function declaration */
 int gcd(int a, int b);
 int main()
 {
@@ -11,9 +10,7 @@ int main()
     printf("GCD of %d and %d = %d", num1, num2, hcf);
     return 0;
 }
-/**
- * Recursive approach of euclidean algorithm to find GCD of two numbers
- */
+
 int gcd(int a, int b)
 {
     if(b == 0)
