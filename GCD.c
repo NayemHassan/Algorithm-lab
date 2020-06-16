@@ -3,7 +3,6 @@ int gcd(int a, int b);
 int main()
 {
     int num1, num2, hcf;
-    /* Input two numbers from user */
     printf("Enter any two numbers to find GCD: ");
     scanf("%d%d", &num1, &num2);
     hcf = gcd(num1, num2);
